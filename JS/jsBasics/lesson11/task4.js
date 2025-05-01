@@ -1,28 +1,27 @@
-
 class GetToDoItem {
-    constructor(id) {
-        this.id = id;
-    }
+	constructor(id) {
+		this.id = id;
+	}
 
-    getTodos() {
-        return fetch(`https://jsonplaceholder.typicode.com/todos/${this.id}`)
-            .then(response => response.json())
-            .then(data => console.log(`TODO item: `, data))
-            .catch(error => console.error('Error:', error));
-    }
+	getTodos() {
+		return fetch(`https://jsonplaceholder.typicode.com/todos/${this.id}`)
+			.then((response) => response.json())
+			.then((data) => console.log(`TODO item: `, data))
+			.catch((error) => console.error('Error:', error));
+	}
 }
 
 class GetUser {
-    constructor(id) {
-        this.id = id;
-    }
+	constructor(id) {
+		this.id = id;
+	}
 
-    getUser() {
-        return fetch(`https://jsonplaceholder.typicode.com/users/${this.id}`)
-            .then(response => response.json())
-            .then(data => console.log(`User: `, data))
-            .catch(error => console.error('Error:', error));
-    }
+	getUser() {
+		return fetch(`https://jsonplaceholder.typicode.com/users/${this.id}`)
+			.then((response) => response.json())
+			.then((data) => console.log(`User: `, data))
+			.catch((error) => console.error('Error:', error));
+	}
 }
 
 const todoItem = new GetToDoItem(3);

@@ -1,10 +1,10 @@
-'use strict'
+'use strict';
 
 const book = {
-    title: 'The Mountain is you',
-    author: 'Brianna Wiest',
-    year: 2020,
-}
+	title: 'The Mountain is you',
+	author: 'Brianna Wiest',
+	year: 2020,
+};
 
 const { title, author, year } = book;
 
