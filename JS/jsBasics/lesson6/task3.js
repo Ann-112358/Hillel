@@ -1,12 +1,12 @@
-'use strict'
+'use strict';
 
 function checkOrder(available, ordered) {
-    if (available < ordered) {
-        return "Your order is too large, we don’t have enough goods.";
-    } else if (ordered === 0) {
-        return "Your order is empty.";
-    } 
-    return "Your order is accepted.";
+	if (available < ordered) {
+		return 'Your order is too large, we donï¿½t have enough goods.';
+	} else if (ordered === 0) {
+		return 'Your order is empty.';
+	}
+	return 'Your order is accepted.';
 }
 
 console.log(checkOrder(5, 10));

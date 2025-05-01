@@ -1,8 +1,8 @@
-﻿'use strict'
+﻿'use strict';
 
 //string
 
-let thisIsString = "пу пу пу";
+let thisIsString = 'пу пу пу';
 
 //number
 

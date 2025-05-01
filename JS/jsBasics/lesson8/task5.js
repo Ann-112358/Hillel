@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 const firstArr = [1, 2, 3, 4, 5];
 const secondArr = [60, 70, 80, 90, 100];

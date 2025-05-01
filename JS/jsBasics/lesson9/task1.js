@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 const student = {};
 
@@ -7,4 +7,4 @@ student.lastName = 'Shevchenko';
 student.age = 20;
 student.courses = ['Ukranian literature', 'Poetry', 'JavaScript'];
 
-console.log(student)
+console.log(student);

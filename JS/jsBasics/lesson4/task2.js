@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 let firstName = 'Dionysus';
 let secondName = 'Poseidon';
